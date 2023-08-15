@@ -1,4 +1,5 @@
 def findEl(lst, el):
+    lst.sort()
     mid = len(lst) // 2
     
     if len(lst) == 0:
